@@ -35,5 +35,6 @@ namespace MISiSDiningRoom.Classes
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
+
     }
 }
