@@ -117,10 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DontWait" xml:space="preserve">
+  <data name="AreYouHungryLabel" xml:space="preserve">
+    <value>饿了吗？</value>
+  </data>
+  <data name="ChooseNowButton" xml:space="preserve">
+    <value>选择!</value>
+  </data>
+  <data name="DontWaitLabel" xml:space="preserve">
     <value>不要等待!</value>
   </data>
-  <data name="LabelAreYouHangry" xml:space="preserve">
-    <value>饿了吗？</value>
+  <data name="THEMOSTDELICIOUSLabel" xml:space="preserve">
+    <value>最美味的</value>
   </data>
 </root>

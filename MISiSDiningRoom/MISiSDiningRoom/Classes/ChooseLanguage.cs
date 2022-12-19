@@ -1,4 +1,5 @@
 ﻿using MISiSDiningRoom.Interfacese;
+using MISiSDiningRoom.ResoursesGeneral.Localization;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -16,17 +17,19 @@ namespace MISiSDiningRoom.Classes
 
        static public void SelectLanguage(string language)
         {
-            if (language == "RU") 
+
+            switch (language)
             {
-                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("ru-RU");
-            }
-            if (language == "EN")
-            {
-                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en-US");
-            }
-            if (language == "CN")
-            {
-                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("zh-CHS");
+
+                case "RU" :
+                    Resource.Culture = CultureInfo.GetCultureInfo("ru-RU");
+                    break;
+                case "CN":
+                    Resource.Culture = CultureInfo.GetCultureInfo("zh-CHS");
+                    break;
+                default:
+                    Resource.Culture = CultureInfo.GetCultureInfo("en-US");
+                    break;
             }
 
 

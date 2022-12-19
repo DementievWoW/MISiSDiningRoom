@@ -38,14 +38,14 @@
                        VerticalOptions="Center"/>
             </Grid>
             <StackLayout HorizontalOptions="Center" Spacing="15">
-                <Label x:Name="AreYouHungry" Text="Are You Hungry?"  TextColor="White" FontSize="18" HorizontalOptions="Center"/>
-                <Label x:Name="DontWait" Text="Don't Wait!" TextColor="White" FontSize="45" FontAttributes="Bold" HorizontalOptions="Center"/>
-                <Button Text="Choose Now" TextColor="White" BackgroundColor="#42AAFF" WidthRequest="150" HeightRequest="46"
+                <Label x:Name="AreYouHungryLabel" Text="Are You Hungry?"  TextColor="White" FontSize="18" HorizontalOptions="Center"/>
+                <Label x:Name="DontWaitLabel" Text="Don't Wait!" TextColor="White" FontSize="45" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Button x:Name="ChooseNowButton" Text="Choose Now" TextColor="White" BackgroundColor="#42AAFF" WidthRequest="150" HeightRequest="46"
                         CornerRadius="23" HorizontalOptions="Center" Command="{Binding OrderCommand}"/>
             </StackLayout>
         </StackLayout>
         <StackLayout Grid.Row="2" Margin="25,0,0,25" Spacing="10">
-            <Label Text="THE MOST DELICIOUS" TextColor="White" Opacity="0.5" FontSize="14"/>
+            <Label x:Name="THEMOSTDELICIOUSLabel" Text="THE MOST DELICIOUS" TextColor="White" Opacity="0.5" FontSize="14"/>
             <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
                 <StackLayout Orientation="Horizontal" BindableLayout.ItemsSource="{Binding Picks}" Spacing="30">
                     <BindableLayout.ItemTemplate>

@@ -61,20 +61,38 @@ namespace MISiSDiningRoom.ResoursesGeneral.Localization {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Dont Wait!.
+        ///   Ищет локализованную строку, похожую на Are You Hungry?.
         /// </summary>
-        internal static string DontWait {
+        internal static string AreYouHungryLabel {
             get {
-                return ResourceManager.GetString("DontWait", resourceCulture);
+                return ResourceManager.GetString("AreYouHungryLabel", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Are You Hungry?.
+        ///   Ищет локализованную строку, похожую на Choose Now!.
         /// </summary>
-        internal static string LabelAreYouHangry {
+        internal static string ChooseNowButton {
             get {
-                return ResourceManager.GetString("LabelAreYouHangry", resourceCulture);
+                return ResourceManager.GetString("ChooseNowButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Dont Wait!.
+        /// </summary>
+        internal static string DontWaitLabel {
+            get {
+                return ResourceManager.GetString("DontWaitLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на THE MOST DELICIOUS.
+        /// </summary>
+        internal static string THEMOSTDELICIOUSLabel {
+            get {
+                return ResourceManager.GetString("THEMOSTDELICIOUSLabel", resourceCulture);
             }
         }
     }

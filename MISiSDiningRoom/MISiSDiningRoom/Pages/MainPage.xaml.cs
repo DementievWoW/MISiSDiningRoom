@@ -18,8 +18,11 @@ namespace MISiSDiningRoom
         {
             InitializeComponent();
             Task.Run(RotateImage);
+            AreYouHungryLabel.Text = Resource.AreYouHungryLabel;
+            DontWaitLabel.Text = Resource.DontWaitLabel;
+            THEMOSTDELICIOUSLabel.Text = Resource.THEMOSTDELICIOUSLabel;
+            ChooseNowButton.Text = Resource.ChooseNowButton;
 
-            
         }
         private async void RotateImage()
         {
@@ -29,9 +32,10 @@ namespace MISiSDiningRoom
         void Picker_SelectedIndexChanged(object sender, EventArgs e)
         {
             ChooseLanguage.SelectLanguage(picker.Items[picker.SelectedIndex]);
-            //LanguageLogoImg.Source= Resource.;
-            AreYouHungry.Text = Resource.LabelAreYouHangry;
-            DontWait.Text = Resource.DontWait;
+            AreYouHungryLabel.Text = Resource.AreYouHungryLabel;
+            DontWaitLabel.Text = Resource.DontWaitLabel;
+            THEMOSTDELICIOUSLabel.Text = Resource.THEMOSTDELICIOUSLabel;
+            ChooseNowButton.Text = Resource.ChooseNowButton;
 
         }
     }

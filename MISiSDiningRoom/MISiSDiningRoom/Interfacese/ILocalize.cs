@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
+using System.Globalization;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace MISiSDiningRoom.Interfacese
 {
-    interface IPhotoPickerService
+    public interface ILocalize
     {
-        Task<Stream> GetImageStreamAsync();
+        CultureInfo GetCurrentCultureInfo();
     }
 }
