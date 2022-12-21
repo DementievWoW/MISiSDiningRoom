@@ -14,7 +14,6 @@ namespace MISiSDiningRoom.Classes
     {
        
 
-
        static public void SelectLanguage(string language)
         {
 

@@ -15,17 +15,11 @@ namespace MISiSDiningRoom.ViewModes
         public List<Pick> Picks { get; set; }
         public MainViewModel()
         {
-            Picks = GetPicks();
+            Picks = Pick.GetPicks();
             
         }
         public ICommand OrderCommand => new Command(() => Application.Current.MainPage.Navigation.PushAsync(new OrderPage()));
-        private List<Pick> GetPicks()
-        {
-            return new List<Pick>
-            {
-                new Pick { Title="", Description="", Image="", Price="" }
-            };
-        }
+
 
 
     }

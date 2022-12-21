@@ -126,6 +126,15 @@
   <data name="DontWaitLabel" xml:space="preserve">
     <value>Не жди!</value>
   </data>
+  <data name="SolyankaDescription" xml:space="preserve">
+    <value>Вк</value>
+  </data>
+  <data name="SolyankaPrice" xml:space="preserve">
+    <value>322 доллара</value>
+  </data>
+  <data name="SolyankaTitle" xml:space="preserve">
+    <value>Солянка</value>
+  </data>
   <data name="THEMOSTDELICIOUSLabel" xml:space="preserve">
     <value>Лучшие блюда</value>
   </data>

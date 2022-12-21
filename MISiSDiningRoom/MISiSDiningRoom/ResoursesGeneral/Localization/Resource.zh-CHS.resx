@@ -126,6 +126,15 @@
   <data name="DontWaitLabel" xml:space="preserve">
     <value>不要等待!</value>
   </data>
+  <data name="SolyankaDescription" xml:space="preserve">
+    <value>利卡</value>
+  </data>
+  <data name="SolyankaPrice" xml:space="preserve">
+    <value>322美元</value>
+  </data>
+  <data name="SolyankaTitle" xml:space="preserve">
+    <value>索利扬卡</value>
+  </data>
   <data name="THEMOSTDELICIOUSLabel" xml:space="preserve">
     <value>最美味的</value>
   </data>

@@ -88,6 +88,33 @@ namespace MISiSDiningRoom.ResoursesGeneral.Localization {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Vk.
+        /// </summary>
+        internal static string SolyankaDescription {
+            get {
+                return ResourceManager.GetString("SolyankaDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 322 dollars.
+        /// </summary>
+        internal static string SolyankaPrice {
+            get {
+                return ResourceManager.GetString("SolyankaPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Solyanka.
+        /// </summary>
+        internal static string SolyankaTitle {
+            get {
+                return ResourceManager.GetString("SolyankaTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на THE MOST DELICIOUS.
         /// </summary>
         internal static string THEMOSTDELICIOUSLabel {
