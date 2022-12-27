@@ -1,11 +1,5 @@
 ﻿using MISiSDiningRoom.Classes;
-using MISiSDiningRoom.Interfacese;
-using MISiSDiningRoom.ResoursesGeneral.Localization;
-using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Text;
-using System.Threading;
 using System.Windows.Input;
 using Xamarin.Forms;
 

@@ -18,7 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="ViewModels\Commands\" />
     <Folder Include="Views\" />
   </ItemGroup>
@@ -37,10 +36,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Pages\AuthPage.xaml">
+    <EmbeddedResource Update="Models\AuthPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Pages\OrderPage.xaml">
+    <EmbeddedResource Update="Models\OrderPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="ResoursesGeneral\Localization\Resource.resx">

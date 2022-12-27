@@ -1,8 +1,6 @@
 ﻿using MISiSDiningRoom.Interfacese;
 using MISiSDiningRoom.ResoursesGeneral.Localization;
-using System;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace MISiSDiningRoom
 {

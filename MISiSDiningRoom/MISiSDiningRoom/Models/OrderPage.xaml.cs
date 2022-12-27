@@ -37,7 +37,7 @@ namespace MISiSDiningRoom.Pages
 			}
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void PlayAudio(object sender, EventArgs e)
         {
             string sound = ((Button)sender).BindingContext as string;
             DependencyService.Get<IAudio>().PlayAudioFile(sound);

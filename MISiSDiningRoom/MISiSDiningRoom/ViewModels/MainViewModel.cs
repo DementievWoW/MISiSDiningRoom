@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 using System.Windows.Input;
 using MISiSDiningRoom.Classes;
 using MISiSDiningRoom.Pages;
-using MISiSDiningRoom.ResoursesGeneral;
 using Xamarin.Forms;
 
 

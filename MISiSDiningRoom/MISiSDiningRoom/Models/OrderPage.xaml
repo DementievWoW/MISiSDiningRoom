@@ -48,7 +48,7 @@
                             <StackLayout Grid.Row="2" Spacing="20" Padding="20" VerticalOptions="End">
                                 <Label Text="{Binding Price}" TextColor="Black" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
                                 <Button x:Name="ButtonVocalize" ImageSource="Sound.png" TextColor="White" BackgroundColor="#42AAFF" WidthRequest="100" HeightRequest="50"
-                                       CornerRadius="20" HorizontalOptions="Center"  Clicked="Button_Clicked" BindingContext="{Binding Sound}"/>
+                                       CornerRadius="20" HorizontalOptions="Center"  Clicked="PlayAudio" BindingContext="{Binding Sound}"/>
                             </StackLayout>
                         </Grid>
                         <Grid HeightRequest="210" WidthRequest="210" VerticalOptions="Start" HorizontalOptions="Center">

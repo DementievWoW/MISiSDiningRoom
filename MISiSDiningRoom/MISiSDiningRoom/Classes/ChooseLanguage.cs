@@ -1,12 +1,6 @@
-﻿using MISiSDiningRoom.Interfacese;
+﻿
 using MISiSDiningRoom.ResoursesGeneral.Localization;
-using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.IO;
-using System.Text;
-using System.Threading;
-using Xamarin.Forms;
 
 namespace MISiSDiningRoom.Classes
 {
