@@ -12,13 +12,15 @@ namespace MISiSDiningRoom.ViewModes
 {
     internal class MainViewModel : BaseViewModel
     {
-        public List<Pick> Picks { get; set; }
         public MainViewModel()
         {
-            Picks = Pick.GetPicks();
             
+
+
         }
         public ICommand OrderCommand => new Command(() => Application.Current.MainPage.Navigation.PushAsync(new OrderPage()));
+
+        public ICommand AuthCommand => new Command(() => Application.Current.MainPage.Navigation.PushAsync(new AuthPage()));
 
 
 

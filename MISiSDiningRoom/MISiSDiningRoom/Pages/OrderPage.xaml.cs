@@ -1,4 +1,5 @@
 ﻿using MISiSDiningRoom.Interfacese;
+using MISiSDiningRoom.ResoursesGeneral.Localization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,8 +18,9 @@ namespace MISiSDiningRoom.Pages
 		public OrderPage ()
 		{
 			InitializeComponent();
+	
 
-		}
+        }
 
         private void CarouselViewPositionChanged(object sender, PositionChangedEventArgs e)
         {

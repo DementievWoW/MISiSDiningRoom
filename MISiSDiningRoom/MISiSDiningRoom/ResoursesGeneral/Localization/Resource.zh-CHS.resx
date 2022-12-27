@@ -118,24 +118,99 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AreYouHungryLabel" xml:space="preserve">
-    <value>饿了吗？</value>
+    <value>你饿了吗？</value>
+  </data>
+  <data name="ButtonVocalize" xml:space="preserve">
+    <value>发声</value>
   </data>
   <data name="ChooseNowButton" xml:space="preserve">
     <value>选择!</value>
   </data>
   <data name="DontWaitLabel" xml:space="preserve">
-    <value>不要等待!</value>
+    <value>不要等待！</value>
+  </data>
+  <data name="LapshaDescription" xml:space="preserve">
+    <value>非常开胃</value>
+  </data>
+  <data name="LapshaPrice" xml:space="preserve">
+    <value>200 р</value>
+  </data>
+  <data name="LapshaTitle" xml:space="preserve">
+    <value>肉和蘑菇面条</value>
+  </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>登入</value>
+  </data>
+  <data name="LoginNowLabel" xml:space="preserve">
+    <value>立即登录！</value>
+  </data>
+  <data name="MimosaDescription" xml:space="preserve">
+    <value>每天过年</value>
+  </data>
+  <data name="MimosaPrice" xml:space="preserve">
+    <value>60 р</value>
+  </data>
+  <data name="MimosaTitle" xml:space="preserve">
+    <value>含羞草</value>
+  </data>
+  <data name="NotAuthorizedLabel" xml:space="preserve">
+    <value>没有授权？</value>
+  </data>
+  <data name="PirojokSkatrohoiDescription" xml:space="preserve">
+    <value>土豆炸馅饼</value>
+  </data>
+  <data name="PirojokSkatrohoiPrice" xml:space="preserve">
+    <value>70 р</value>
+  </data>
+  <data name="PirojokSkatrohoiTitle" xml:space="preserve">
+    <value>土豆馅饼</value>
+  </data>
+  <data name="RisSMDescription" xml:space="preserve">
+    <value>很多肉汁</value>
+  </data>
+  <data name="RisSMPrice5" xml:space="preserve">
+    <value>120 р</value>
+  </data>
+  <data name="RisSMTitle5" xml:space="preserve">
+    <value>肉饭</value>
+  </data>
+  <data name="RossolnikDescription" xml:space="preserve">
+    <value>同样的泡菜</value>
+  </data>
+  <data name="RossolnikPrice" xml:space="preserve">
+    <value>110 р</value>
+  </data>
+  <data name="RossolnikTitle" xml:space="preserve">
+    <value>泡菜</value>
   </data>
   <data name="SolyankaDescription" xml:space="preserve">
-    <value>利卡</value>
+    <value>最丰富的肉汤</value>
   </data>
   <data name="SolyankaPrice" xml:space="preserve">
-    <value>322美元</value>
+    <value>50 р</value>
   </data>
   <data name="SolyankaTitle" xml:space="preserve">
     <value>索利扬卡</value>
   </data>
   <data name="THEMOSTDELICIOUSLabel" xml:space="preserve">
     <value>最美味的</value>
+  </data>
+  <data name="VenegreDescription" xml:space="preserve">
+    <value>经典沙拉油醋汁</value>
+  </data>
+  <data name="VenegrePrice" xml:space="preserve">
+    <value>60 р</value>
+  </data>
+  <data name="VenegreTitle" xml:space="preserve">
+    <value>[医]醋汁</value>
+  </data>
+  <data name="VitaminDescription" xml:space="preserve">
+    <value>新鲜蔬菜的美味沙拉</value>
+  </data>
+  <data name="VitaminPrice" xml:space="preserve">
+    <value>60 р</value>
+  </data>
+  <data name="VitaminTitle" xml:space="preserve">
+    <value>维生素沙拉</value>
   </data>
 </root>

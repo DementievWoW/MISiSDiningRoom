@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISiSDiningRoom.Android", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISiSDiningRoom.iOS", "MISiSDiningRoom\MISiSDiningRoom.iOS\MISiSDiningRoom.iOS.csproj", "{059972F9-0A6E-4C6A-8030-8779DA3B1677}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISiSDiningRoom", "MISiSDiningRoom\MISiSDiningRoom\MISiSDiningRoom.csproj", "{35DF622F-581E-4E01-8ADB-D9B734C9F289}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MISiSDiningRoom", "MISiSDiningRoom\MISiSDiningRoom\MISiSDiningRoom.csproj", "{35DF622F-581E-4E01-8ADB-D9B734C9F289}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

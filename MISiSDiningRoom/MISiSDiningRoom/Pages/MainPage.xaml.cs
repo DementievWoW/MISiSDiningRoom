@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 namespace MISiSDiningRoom
 {
@@ -16,7 +17,7 @@ namespace MISiSDiningRoom
     {
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent();  
 
             RefreshLanguageTextElements();
 
@@ -29,6 +30,9 @@ namespace MISiSDiningRoom
         {
             try
             {
+
+                BindableLayout.SetItemsSource(TMDCourusel, Pick.GetPicks());
+
                 AreYouHungryLabel.Text = Resource.AreYouHungryLabel;
 
                 DontWaitLabel.Text = Resource.DontWaitLabel;
@@ -36,6 +40,7 @@ namespace MISiSDiningRoom
                 THEMOSTDELICIOUSLabel.Text = Resource.THEMOSTDELICIOUSLabel;
 
                 ChooseNowButton.Text = Resource.ChooseNowButton;
+
             }
             catch (Exception)
             {
@@ -54,7 +59,7 @@ namespace MISiSDiningRoom
         void Picker_SelectedIndexChanged(object sender, EventArgs e)
         {
             ChooseLanguage.SelectLanguage(picker.Items[picker.SelectedIndex]);
-           
+
             RefreshLanguageTextElements();
 
         }

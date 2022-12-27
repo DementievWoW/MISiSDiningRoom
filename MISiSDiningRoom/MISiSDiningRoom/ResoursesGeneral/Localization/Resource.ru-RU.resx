@@ -118,24 +118,99 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AreYouHungryLabel" xml:space="preserve">
-    <value>Оголодал? </value>
+    <value>Оголодал?</value>
+  </data>
+  <data name="ButtonVocalize" xml:space="preserve">
+    <value>Озвучить</value>
   </data>
   <data name="ChooseNowButton" xml:space="preserve">
-    <value>Выбери сейчас!</value>
+    <value>Choose Now!</value>
   </data>
   <data name="DontWaitLabel" xml:space="preserve">
-    <value>Не жди!</value>
+    <value>Dont Wait!</value>
+  </data>
+  <data name="LapshaDescription" xml:space="preserve">
+    <value>очень аппетитно</value>
+  </data>
+  <data name="LapshaPrice" xml:space="preserve">
+    <value>200 р</value>
+  </data>
+  <data name="LapshaTitle" xml:space="preserve">
+    <value>лапша с мясом и грибами</value>
+  </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="LoginNowLabel" xml:space="preserve">
+    <value>Войди сейчас!</value>
+  </data>
+  <data name="MimosaDescription" xml:space="preserve">
+    <value>Новый год каждый день</value>
+  </data>
+  <data name="MimosaPrice" xml:space="preserve">
+    <value>60 р</value>
+  </data>
+  <data name="MimosaTitle" xml:space="preserve">
+    <value>Мимоза</value>
+  </data>
+  <data name="NotAuthorizedLabel" xml:space="preserve">
+    <value>Не авторизирован?</value>
+  </data>
+  <data name="PirojokSkatrohoiDescription" xml:space="preserve">
+    <value>Жареный пирожок с картошкой</value>
+  </data>
+  <data name="PirojokSkatrohoiPrice" xml:space="preserve">
+    <value>70 р </value>
+  </data>
+  <data name="PirojokSkatrohoiTitle" xml:space="preserve">
+    <value>пирожок с картошкой</value>
+  </data>
+  <data name="RisSMDescription" xml:space="preserve">
+    <value>Много подливки</value>
+  </data>
+  <data name="RisSMPrice5" xml:space="preserve">
+    <value>120 р</value>
+  </data>
+  <data name="RisSMTitle5" xml:space="preserve">
+    <value>рис с мясом</value>
+  </data>
+  <data name="RossolnikDescription" xml:space="preserve">
+    <value>Тот самый рассольник</value>
+  </data>
+  <data name="RossolnikPrice" xml:space="preserve">
+    <value>110 р</value>
+  </data>
+  <data name="RossolnikTitle" xml:space="preserve">
+    <value>Рассольник</value>
   </data>
   <data name="SolyankaDescription" xml:space="preserve">
-    <value>Вк</value>
+    <value>Самый наваристый бульон</value>
   </data>
   <data name="SolyankaPrice" xml:space="preserve">
-    <value>322 доллара</value>
+    <value>50 р</value>
   </data>
   <data name="SolyankaTitle" xml:space="preserve">
     <value>Солянка</value>
   </data>
   <data name="THEMOSTDELICIOUSLabel" xml:space="preserve">
-    <value>Лучшие блюда</value>
+    <value>Самое лучшие</value>
+  </data>
+  <data name="VenegreDescription" xml:space="preserve">
+    <value>Классический салат винегрет</value>
+  </data>
+  <data name="VenegrePrice" xml:space="preserve">
+    <value>60 р</value>
+  </data>
+  <data name="VenegreTitle" xml:space="preserve">
+    <value>Винегрет</value>
+  </data>
+  <data name="VitaminDescription" xml:space="preserve">
+    <value>Вкуснейший салат из свежих овощей</value>
+  </data>
+  <data name="VitaminPrice" xml:space="preserve">
+    <value>60 р</value>
+  </data>
+  <data name="VitaminTitle" xml:space="preserve">
+    <value>Витаминный салат</value>
   </data>
 </root>

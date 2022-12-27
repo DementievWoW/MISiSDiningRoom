@@ -21,7 +21,7 @@
                 
               Aspect="Fill" Fill="#42AAFF"/>
             <StackLayout Orientation="Horizontal" Margin="25" Spacing="20" VerticalOptions="Start" >
-                <ImageButton Source="" BackgroundColor="Transparent" WidthRequest="20" HeightRequest="20"
+                <ImageButton Source="back.png" BackgroundColor="Transparent" WidthRequest="20" HeightRequest="20"
                              HorizontalOptions="Start" VerticalOptions="Center" Command="{Binding BackToMainPageCommand}"/>
                 <Label Text="MENU" TextColor="Black" FontSize="20" FontAttributes="Bold" VerticalOptions="Start"/>
 
@@ -47,7 +47,7 @@
                             </StackLayout>
                             <StackLayout Grid.Row="2" Spacing="20" Padding="20" VerticalOptions="End">
                                 <Label Text="{Binding Price}" TextColor="Black" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
-                                <Button Text="Vocalize" TextColor="White" BackgroundColor="#42AAFF" WidthRequest="100" HeightRequest="50"
+                                <Button x:Name="ButtonVocalize" ImageSource="Sound.png" TextColor="White" BackgroundColor="#42AAFF" WidthRequest="100" HeightRequest="50"
                                        CornerRadius="20" HorizontalOptions="Center"  Clicked="Button_Clicked" BindingContext="{Binding Sound}"/>
                             </StackLayout>
                         </Grid>

@@ -70,6 +70,15 @@ namespace MISiSDiningRoom.ResoursesGeneral.Localization {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Vocalize.
+        /// </summary>
+        internal static string ButtonVocalize {
+            get {
+                return ResourceManager.GetString("ButtonVocalize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Choose Now!.
         /// </summary>
         internal static string ChooseNowButton {
@@ -88,7 +97,169 @@ namespace MISiSDiningRoom.ResoursesGeneral.Localization {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Vk.
+        ///   Ищет локализованную строку, похожую на very appetizing.
+        /// </summary>
+        internal static string LapshaDescription {
+            get {
+                return ResourceManager.GetString("LapshaDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 200 р.
+        /// </summary>
+        internal static string LapshaPrice {
+            get {
+                return ResourceManager.GetString("LapshaPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на noodles with meat and mushrooms.
+        /// </summary>
+        internal static string LapshaTitle {
+            get {
+                return ResourceManager.GetString("LapshaTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Login.
+        /// </summary>
+        internal static string LoginButton {
+            get {
+                return ResourceManager.GetString("LoginButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Login Now!.
+        /// </summary>
+        internal static string LoginNowLabel {
+            get {
+                return ResourceManager.GetString("LoginNowLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на New Year every day.
+        /// </summary>
+        internal static string MimosaDescription {
+            get {
+                return ResourceManager.GetString("MimosaDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 60 р.
+        /// </summary>
+        internal static string MimosaPrice {
+            get {
+                return ResourceManager.GetString("MimosaPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Mimosa.
+        /// </summary>
+        internal static string MimosaTitle {
+            get {
+                return ResourceManager.GetString("MimosaTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Not Authorized?.
+        /// </summary>
+        internal static string NotAuthorizedLabel {
+            get {
+                return ResourceManager.GetString("NotAuthorizedLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Fried pie with potatoes.
+        /// </summary>
+        internal static string PirojokSkatrohoiDescription {
+            get {
+                return ResourceManager.GetString("PirojokSkatrohoiDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 70 р.
+        /// </summary>
+        internal static string PirojokSkatrohoiPrice {
+            get {
+                return ResourceManager.GetString("PirojokSkatrohoiPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на potato pie.
+        /// </summary>
+        internal static string PirojokSkatrohoiTitle {
+            get {
+                return ResourceManager.GetString("PirojokSkatrohoiTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Lots of gravy.
+        /// </summary>
+        internal static string RisSMDescription {
+            get {
+                return ResourceManager.GetString("RisSMDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 120 р.
+        /// </summary>
+        internal static string RisSMPrice5 {
+            get {
+                return ResourceManager.GetString("RisSMPrice5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на rice with meat.
+        /// </summary>
+        internal static string RisSMTitle5 {
+            get {
+                return ResourceManager.GetString("RisSMTitle5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на The same pickle.
+        /// </summary>
+        internal static string RossolnikDescription {
+            get {
+                return ResourceManager.GetString("RossolnikDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 110 р.
+        /// </summary>
+        internal static string RossolnikPrice {
+            get {
+                return ResourceManager.GetString("RossolnikPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Pickle.
+        /// </summary>
+        internal static string RossolnikTitle {
+            get {
+                return ResourceManager.GetString("RossolnikTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на The most rich broth.
         /// </summary>
         internal static string SolyankaDescription {
             get {
@@ -97,7 +268,7 @@ namespace MISiSDiningRoom.ResoursesGeneral.Localization {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на 322 dollars.
+        ///   Ищет локализованную строку, похожую на 50 р.
         /// </summary>
         internal static string SolyankaPrice {
             get {
@@ -120,6 +291,60 @@ namespace MISiSDiningRoom.ResoursesGeneral.Localization {
         internal static string THEMOSTDELICIOUSLabel {
             get {
                 return ResourceManager.GetString("THEMOSTDELICIOUSLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Classic salad vinaigrette.
+        /// </summary>
+        internal static string VenegreDescription {
+            get {
+                return ResourceManager.GetString("VenegreDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 60 р.
+        /// </summary>
+        internal static string VenegrePrice {
+            get {
+                return ResourceManager.GetString("VenegrePrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Vinaigrette.
+        /// </summary>
+        internal static string VenegreTitle {
+            get {
+                return ResourceManager.GetString("VenegreTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Delicious salad of fresh vegetables.
+        /// </summary>
+        internal static string VitaminDescription {
+            get {
+                return ResourceManager.GetString("VitaminDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 60 р.
+        /// </summary>
+        internal static string VitaminPrice {
+            get {
+                return ResourceManager.GetString("VitaminPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Vitamin salad.
+        /// </summary>
+        internal static string VitaminTitle {
+            get {
+                return ResourceManager.GetString("VitaminTitle", resourceCulture);
             }
         }
     }
