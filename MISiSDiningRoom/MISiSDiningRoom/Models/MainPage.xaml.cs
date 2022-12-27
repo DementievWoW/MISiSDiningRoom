@@ -1,15 +1,8 @@
 ﻿using MISiSDiningRoom.Classes;
-using MISiSDiningRoom.Interfacese;
-using MISiSDiningRoom.ResoursesGeneral;
 using MISiSDiningRoom.ResoursesGeneral.Localization;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 namespace MISiSDiningRoom
 {
