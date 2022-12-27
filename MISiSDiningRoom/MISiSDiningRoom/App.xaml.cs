@@ -1,6 +1,6 @@
-﻿using System;
+﻿using MISiSDiningRoom.Interfacese;
+using MISiSDiningRoom.ResoursesGeneral.Localization;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace MISiSDiningRoom
 {
@@ -9,7 +9,8 @@ namespace MISiSDiningRoom
         public App()
         {
             InitializeComponent();
-
+            Resource.Culture = DependencyService.Get<ILocalize>()
+                                .GetCurrentCultureInfo();
             MainPage = new NavigationPage( new MainPage());
         }
 
